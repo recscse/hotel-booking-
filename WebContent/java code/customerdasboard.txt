@@ -1,0 +1,21 @@
+<html>
+
+        <head>
+            <title>Cab Sharing System</title>
+            <link rel="stylesheet" href="style.css">
+            
+        </head>
+    <body>
+            <div id="header">
+              
+            </div>
+         <% String MobileNo = (String)session.getAttribute("mobile"); 
+         String name=(String)session.getAttribute("name");
+         out.println("Welcome "+(String)session.getAttribute("name")+" "+MobileNo);
+         %>
+       
+         <footer> 
+
+    </footer>
+    </body>
+    </html>
